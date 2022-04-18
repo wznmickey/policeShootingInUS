@@ -169,9 +169,9 @@ svg.selectAll('path')
 	//   console.log(e)
 	//   console.log(d)
 
-    document.getElementById("num").innerHTML="In 2019, Police Shoot Events: "+e.properties.visited;
+    document.getElementById("num").innerHTML="In 2019, Police Shoot Events: "+e.properties.visited+" in " +e.properties.name;
     if (e.properties.visited==undefined) {
-        document.getElementById("num").innerHTML="In 2019, Police Shoot Events: "+0;
+        document.getElementById("num").innerHTML="In 2019, Police Shoot Events: "+0+" in " +e.properties.name;
     }
   });
 
